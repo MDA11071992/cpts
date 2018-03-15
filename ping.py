@@ -157,4 +157,4 @@ def verbose_ping(dest_addr, timeout=2, count=14):
 if __name__ == '__main__':
     #verbose_ping("google.com")
     #verbose_ping("192.168.10.1")
-    verbose_ping(raw_input('adress: '))
+    verbose_ping(raw_input('address: '))
